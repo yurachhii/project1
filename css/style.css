@@ -5,18 +5,14 @@
     box-sizing: border-box;
 
 }
-
 /* ========================== common ==================== */
 /* container */
 .section3-contaier , .section1 , .section2-container , .sec4-container , .section5 , .section6-container 
-
 {
     width: 100%;
     height: 100vh;
 }
-
 /* Fonts */
-
 .sec3-header , .section1-header , .section2-header-main , .sec3-title , .sec3-par , .sec4-header , .sec4-p , .sec4-lists , 
 .sec5-parent  span , .sec5-parent  p , .sec6-header , .sec6-child-header , .sec6-circle p , .sec3-4owet-kalam p , .name  
 , .job , .kalam , .sec8-header , .sec8-h2 , .sec8-h5 , .sec9-header , .sec9-child span , .sec9-child p , .sec9-child a
@@ -46,45 +42,29 @@
 .header-list-elements li a::after , .blog-list li a::after
 {
     position: absolute;
-    
-
     content: "";
     width: 0;
     height: 2px;
-
-    
-
     bottom: 0;
     left: 50%;
     right: 50%;
-
     opacity: 1;
     transition: 0.5s;
-
-
 }
 .header-list-elements li a:hover::after , .blog-list li a:hover::after 
 {
     width: 100%;
     height: 2px;
-
     left: 0;
     right: 0;
-
     background-color: #b6b6b6;
-
     opacity: 1;
-
 }
-
 /* section 5 and 7 */
 .sec5-parent , .sec7-parent
 {
     width: 100%;
     height: 60%;
-    /* margin: auto; */
-    /* background-color: #455462;
-     */
      background-size: cover;
      background-repeat: no-repeat;
      background-position: center; 
@@ -94,9 +74,6 @@
 
 /* ========================================================== */
                     /* ================================== header ========================================= */
-
-
-
          /* ---------------------------------------------left hand side -------------------------------------------- */
 .header
 {
@@ -108,24 +85,19 @@
     background-color: #4a5b6a99;
     
 }
-
 .header-search
 {
     position: relative;
     height: 100%;
     padding-top: 5px;
     margin-left: 40px;
-    
-
 }
 .header-search a i
 {
     position: absolute;
     color: #fff;
     font-size: 30px;
-
 }
-
 .header-input
 {
     width: 300px;
@@ -145,11 +117,7 @@
 
 }
                 /* -------------------------------------------------------------------------------------------------------- */
-
-
                 /* --------------------------------------------- right hand side -------------------------------------------- */
-
-
 .header-list-elements
 {
     position: absolute;
@@ -172,14 +140,11 @@
   position: relative;
   padding-bottom: 5px;
 }
-
 /* ============================================================ */
 .header-blog
 {
     width: 150px;
-
     top: 25px;
-
     background-color: #728495;
     position: absolute;
     right: 10%;
@@ -187,36 +152,27 @@
     padding: 20px;
     visibility: hidden;
     border:1px solid #b6b6b6;
-   
 }
-
-
 .blog-list
 {
     list-style: none;
 }
-
 .blog-list li a
 {
     display: block;
     color: #fff;
     text-decoration: none;
     position: relative;
-     font-family: "Exo 2", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
     
 }
 .blog-list li a::after
 {
-    
-
-
-
     background-color: #98a9be;
     opacity: 1;
     transition: 0.5s;
-
 }
 .blog-list li a:hover::after 
 {
@@ -226,8 +182,7 @@
 {
     visibility: visible;
 }
-
-        /* -------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------- */
 .home-container
 {
     width: 100%;
@@ -236,10 +191,7 @@
     background-image: url(../img/photo1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-position: center; */
 }
-
-
 .home-text
 {
     position: absolute;
@@ -250,10 +202,9 @@
     transform: translate(-50%,-50%);
     font-size: 20px;
     color: #fff;
-     font-family: "Exo 2", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 .home-p
 {
@@ -263,24 +214,22 @@
 .home-header
 {
     font-size: 50px;
-     font-family: "Exo 2", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 .btn
 {
     padding:10px;
     border: none;
     border-radius: 10px;
-     font-family: "Exo 2", sans-serif;
+    font-family: "Exo 2", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.4);
     transition: transform 0.3s ease;
     cursor: pointer;
     margin-left: 10px;
-
-
 }
 .btn1
 {
@@ -290,22 +239,18 @@
 .btn:hover
 {
     opacity: 0.6;
-     transform: scale(1.1);
-
-
+    transform: scale(1.1);
 }
 /* ================================================================= section 1 ===================================================================== */
 .section1
 {
-
     text-align: center;
-
 }
 .section1-header-child , .section1-child-p , .section1-childs-read
 {
-     font-family: "Exo 2", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 .shape-for-all
 {
@@ -331,13 +276,10 @@
     position: relative;
     margin-top: 30px;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
-
 }
-
  .section1-child-p
 {
     padding-bottom: 10px;
-
 }
 .section1-header-child
 {
@@ -361,17 +303,14 @@
 .section1-children::after
 {
     position: absolute;
-     z-index: -1;
+    z-index: -1;
     width: 0;
     height: 0;
-
     content: "";
-
     right: 50%;
     bottom: 50%;
     top: 50%;
     left: 50%;
-
     background-color: rgba(114, 132, 149);
     opacity: 0.4;
     border-radius: 10px;
@@ -382,16 +321,12 @@
     width: 100%;
     height: 100%;
     opacity: 0.4;
-
-
     bottom: 0;
     top: 0;
     right: 0;
     left: 0;
-
     border-radius: 10px;
     color: #fff;
-
     background-color: rgba(114, 132, 149);
 }
 .section1-children:hover .section1-header-child 
@@ -415,17 +350,14 @@
 }
 .section2-child
 {
-     width: 30%;
+    width: 30%;
     height:210px;
-     background-size: cover;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-color: #455462;
     border-radius: 10px;
-        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
-
-
-   
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
 }
 .section2-child
 {
@@ -436,36 +368,30 @@
 .section2-child1
 {
     background-image: url(../img/child1.jpg);
-
 }
 .section2-child2
 {
     background-image: url(../img/child2.jpg);
-
 }
 .section2-child3
 {
     background-image: url(../img/child3.jpg);
-
 }
 .section2-child4
 {
     background-image: url(../img/child4.webp);
-
 }
 .section2-child5
 {
     background-image: url(../img/child5.jpg);
-
 }
 .section2-child6
 {
     background-image: url(../img/child6.jpg);
-
 }
 .s2-cate h2 , .s2-cate h4 , .section2-child i
 {
-text-align: center;
+    text-align: center;
     color: #fff;
     padding-top: 30px;
 }
@@ -475,18 +401,15 @@ text-align: center;
 }
 .s2-cate h2 , .s2-cate h4 
 {
-    
     margin: auto;
-     font-family: "Exo 2", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  opacity: 0.6;
-    /* font-size: 40px; */
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    opacity: 0.6;
 }
- .s2-cate .fa-pinterest
+.s2-cate .fa-pinterest
 {
-  
-  margin-left: 160px;
+    margin-left: 160px;
 }
 .s2-layout
 {
@@ -495,18 +418,14 @@ text-align: center;
     background-color: rgba(69, 84, 98,0.8);
     visibility: hidden;
     border-radius: 10px;
-
-} 
-.section2-child:hover .s2-layout 
+}
+.section2-child:hover .s2-layout
 {
     visibility:visible;
-    
 }
 
 
 /* -------------------------------------------------------------------------------------------------------------------------------------------------- */
-
-
 /* ================================================================= section 3 ===================================================================== */
 
 .sec3-child
@@ -521,9 +440,6 @@ text-align: center;
     float: left;
     margin-left: 10%;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
-    transition: transform 0.3s ease;
-
-
 }
 .sec3-child a i
 {
@@ -538,7 +454,6 @@ text-align: center;
     top: 0;
     right: 0;
     padding:6px;
-
 }
 .sec3-title
 {
@@ -552,7 +467,7 @@ text-align: center;
 .sec3-child::after
 {
     position: absolute;
-     z-index: -1;
+    z-index: -1;
     width: 0;
     height: 0;
 
@@ -585,10 +500,7 @@ text-align: center;
 
     background-color: rgba(114, 132, 149);
 }
-.sec3-child:hover
-{
-     transform: scale(1.1);
-}
+
 .sec3-child:hover .sec3-title
 {
     color: #728495;
@@ -723,9 +635,6 @@ text-align: center;
 {
     float: left;
 }
-
-
-
 .sec5-parent .sec5-ic 
 {
     color: #fff;
@@ -799,11 +708,12 @@ text-align: center;
         font-style: normal;
          text-transform: capitalize;
          padding: 20px;
-         font-size: 30px;
+         font-size: 20px;
 }
 .sec6-price
 {
          font-size: 20px;
+         font-weight: 700;
          text-transform: lowercase;
 
 }
@@ -818,12 +728,13 @@ text-align: center;
     border-radius: 20px;
     position: absolute;
     margin-top: -130px;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease-in-out;
+      transform: scale(1.1);
+
 
 }
 .Advantage:hover 
 {
-      transform: scale(1.08);
       margin-top: -80px;
 }
 .Advantage li 
@@ -856,10 +767,6 @@ text-align: center;
 /* ----------------------------------------------------------------------------------------------------------------------------------- */
 
 /* =========================================================== section 7 ============================================================= */
-.section7
-{
-
-}
 .parentofparent
 {
     height: 60%;
@@ -870,11 +777,9 @@ text-align: center;
     margin: -130px 0 0 200px;
 
     position: absolute;
-
 }    
 .sec7-parent
     {
-   
     position: absolute;
     }
     .sec7-kalam1 , .sec7-kalam2
@@ -883,10 +788,6 @@ text-align: center;
         text-align: center;
         font-size: 30px;
         padding-top: 15px;
-        /* text-shadow: 0px 0px 10px black ; */
-
-        /* margin: ;
-         */
     }
     .sec7-kalam1 
     {
@@ -913,8 +814,6 @@ text-align: center;
          margin-left: 230px;
          margin-top: 70px;
         box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
-         transition: transform 0.3s ease;
-
     }
     .sec7-btn
     {
@@ -923,15 +822,11 @@ text-align: center;
          margin-left:5px;
          background-color: #6f869b;
         color: #fff;
-
     }
     .sec7-btn:hover 
     {
-        transform: scale(1.1);
         cursor: pointer;
     }
-    
-    
 /* ----------------------------------------------------------------------------------------------------------------------------------- */
 
 
