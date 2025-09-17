@@ -241,6 +241,21 @@
     opacity: 0.6;
     transform: scale(1.1);
 }
+.home-header
+{
+    font-size: 60px;
+}
+.home-p
+{
+    font-size: 16px;
+
+}
+.home-p , .home-header
+{
+    padding-bottom: 6px;
+
+}
+
 /* ================================================================= section 1 ===================================================================== */
 .section1
 {
@@ -352,7 +367,7 @@
 .section2-header
 {
     text-align: center;
-
+    padding-top: 40px;
 }
 .section2-child
 {
@@ -364,12 +379,13 @@
     background-color: #455462;
     border-radius: 10px;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+
 }
 .section2-child
 {
     float: left;
     margin-left: 2.5%;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .section2-child1
 {
